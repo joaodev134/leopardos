@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'lemon_milk';
+    src: url(fonts/lemon_milk/LEMONMILK-Bold.otf);
+}
+
+@font-face {
+    font-family: 'garet';
+    src: url(fonts/garet/Garet-Heavy.ttf);
+}
+
+@font-face {
+    font-family: 'sarlotte';
+    src: url(fonts/sarlotte_2/Sarlotte.otf);
+}
+
+body {
+    background-image: linear-gradient(to right, #D9B98F,#F09E1E,  #B78952, #66400F, #4D3418);
+}
+
+main {
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #B78952;
+    text-align: center;
+    font-family: 'lemon_milk';
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'garet';
+    text-align: center;
+    color: rgba(0, 0, 0, 0.801);
+}
+
+p {
+    font-size: 1.4em;
+    font-family: 'sarlotte';
+    text-align: justify;
+    text-indent: 2em;
+}
+
+li {
+    font-size: 1.4em;
+}
+
+.naoindent {
+    text-indent: 0em;
+}
+
+footer {
+    font-style: italic;
+    text-align: right;
+    color: white;
+}
+
+a {
+    color: #0D6EFD;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+#creditos {
+    text-align: center;
+}
+
+img {
+    margin-left: 200px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px black;
+}
+
+#pcreditos {
+    text-align: justify;
+    width: 800px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#linkcreditos {
+    text-align: center;
+}
+
+#paganterior {
+    text-align: center;
+}
+
+#linhaespecial {
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'sarlotte';
+}
+
+.ppequeno {
+    font-size: 1em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.63);
+    text-indent: 0em;
+}
+
+#titulocreditos {
+    color: rgba(0, 0, 0, 0.63);
+}
